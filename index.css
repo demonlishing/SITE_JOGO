@@ -1,0 +1,139 @@
+
+body {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  max-height: 50px;
+    background: #ffffff;
+    color: #fff;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav a {
+  position: relative;
+  left: 200px;
+  bottom: 15px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 1s;
+  font-family: 'Sora', sans-serif;
+  margin-right: 20px;
+}
+header nav a:hover{
+  background: linear-gradient(45deg, #25105d, #07cfb5);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   border-radius: 7px;
+   margin-left: 70px; 
+}
+
+
+.logo-img {
+   width: 100px;
+   height: auto;
+   border-radius: 7px;
+}
+.hero {
+    position: relative;
+    color: white;
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}
+  .hero img{
+  height: auto;
+  width: 600px;
+  margin-bottom: 40px;
+  }
+
+  .hero h2{
+    font-family: 'Sora', sans-serif;
+    background-color: black;
+    border-radius: 20px;
+    border: 20px solid black;
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 1000px;
+    opacity: 0.7;
+  }
+main {
+    background-image: url(https://i.imgur.com/SxpGLnh.png);
+    background-size: cover;
+    height: 100vh;
+}
+.section {
+  font-size: 25px;
+    padding: 200px 20px;
+    background-color: #100722;
+    margin: 0px 0 ;
+    color: white;
+
+}
+
+
+.section:nth-child(even) {
+  background: linear-gradient(45deg, #25105d, #07cfb5);
+}
+.section p{
+  margin-left: 30px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Sora', sans-serif;
+}
+
+.section h2 {
+    font-family: 'Sora', sans-serif;
+    margin-top: 0;
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.section h3 {
+    font-family: 'Sora', sans-serif;
+    margin-top: 0;
+    font-size: 40px;
+    color: white;
+}
+
+        .button-container {
+          position: relative;
+          top: 100px;
+            text-align: center;
+            margin: 20px;
+        }
+        .steam-button {
+            background: black;
+            border-radius: 10px;
+            color: white;
+            padding: 25px 35px;
+            font-size: 25px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border: 2px solid black;
+
+        }
+        .steam-button:hover {
+  background: linear-gradient(45deg, #25105d, #07cfb5);
+              border: 2px solid white;
+        }
